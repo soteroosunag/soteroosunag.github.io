@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #fff;
+  }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 6rem;
+}
+h3 {
+    font-size: 3em;
+    opacity: 0.8;
+    margin-top: -3rem;
+}
+.auto-type {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    margin: 0;
+  }
+  
+.typed-cursor {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
