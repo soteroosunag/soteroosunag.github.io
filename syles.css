@@ -18,11 +18,12 @@ body {
 }
 h1 {
     font-size: 6rem;
+    text-align: center;
 }
 h3 {
     font-size: 3em;
     opacity: 0.8;
-    margin-top: -3rem;
+    margin-top: -4rem;
 }
 .auto-type {
     display: inline-block;
@@ -36,3 +37,25 @@ h3 {
     vertical-align: middle;
     line-height: 1;
 }
+
+.social-links {
+    margin-top: 2rem;
+    text-align: center;
+    margin-top: -2rem;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+  
+  .social-icon {
+    width: 2rem; 
+    height: auto;
+    transition: transform 0.3s;
+    margin: 0 2rem 0 2rem;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.25);
+  }
