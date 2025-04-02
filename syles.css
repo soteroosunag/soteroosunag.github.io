@@ -9,6 +9,9 @@ body {
     color: #fff;
     box-sizing: border-box;
   }
+  body.work-body {
+    padding: 0 4rem;
+  }
 
 nav {
   box-sizing: border-box;
@@ -26,6 +29,11 @@ nav {
 h1 {
     font-size: 5rem;
     text-align: center;
+}
+
+h1.work-title {
+    margin-bottom: 0rem;
+    font-size: 3.75rem;
 }
 
 h2 {
@@ -134,4 +142,54 @@ a {
   .separator {
     margin: 0 0.5rem;
     color: #fff;
+  }
+
+  .wrapper {
+    max-width: 1600px;
+    position: relative;
+  }
+
+  .wrapper .carousel {
+    font-size: 0;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .carousel img {
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: calc(100% / 4);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .carousel img:first-child {
+    margin-left: 0;
+  }
+  
+  .right-arrow, .left-arrow {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+  }
+
+  .right-arrow {
+    right: -60px;
+    transform: translateY(-50%);
+  }
+  
+  .left-arrow {
+    left: -60px;
+    transform: translateY(-50%) rotate(180deg);
   }
